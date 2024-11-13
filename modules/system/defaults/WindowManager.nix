@@ -56,6 +56,13 @@ with lib;
         Hide items in Stage Manager.
       '';
     };
+    system.defaults.WindowManager.EnableTiledWindowMargins = mkOption {
+      type = types.nullOr types.bool;
+      default = true;
+      description = ''
+        Window Margins.
+      '';
+    };
 
     system.defaults.WindowManager.StandardHideWidgets = mkOption {
       type = types.nullOr types.bool;
