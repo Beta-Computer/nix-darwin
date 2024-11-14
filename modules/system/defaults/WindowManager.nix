@@ -60,7 +60,7 @@ with lib;
       type = types.nullOr types.bool;
       default = true;
       description = ''
-        Window Margins.
+        Enable Window Margins.
       '';
     };
 
