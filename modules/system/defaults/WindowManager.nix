@@ -58,7 +58,7 @@ with lib;
     };
     system.defaults.WindowManager.EnableTiledWindowMargins = mkOption {
       type = types.nullOr types.bool;
-      default = true;
+      default = null;
       description = ''
         Enable Window Margins.
       '';
